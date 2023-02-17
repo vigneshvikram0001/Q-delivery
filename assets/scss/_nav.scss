@@ -1,9 +1,10 @@
 .head{
-    width: 100%;
+    width: 100vw;
     height: 80px;
     background-color: var(--light-blue-bg);
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 100;
 }
 .navbar{
@@ -12,7 +13,7 @@
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: #000000;
     &-logo{
         font-size: var(--h2-fs);
@@ -38,4 +39,3 @@
     font-size: 1.5rem;
     display: none;
 }
-

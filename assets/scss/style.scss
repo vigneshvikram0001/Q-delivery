@@ -7,7 +7,6 @@
 }
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 html::-webkit-scrollbar{
     width: 0px;
@@ -33,6 +32,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #ffffff;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
