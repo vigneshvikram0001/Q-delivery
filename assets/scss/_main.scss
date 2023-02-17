@@ -1,0 +1,33 @@
+.home-page{
+    width: 100%;
+    background-color: #fff;
+}
+.main{
+    padding-top: 3rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    &-text h2{
+        font-size: var(--biggest-fs);
+        margin-bottom: 10px;
+    }
+    &-text p{
+        font-size: var(--smaller-fs);
+        margin-bottom: var(--height);
+    }
+    &-img img{
+        width: 520px;
+        height: 500px;
+    }
+}
+.empty-home{
+    padding-top: 4rem;
+}
+
+
+
+
+

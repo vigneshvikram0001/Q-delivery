@@ -1,0 +1,31 @@
+.contact{
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+}
+.contact-page{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &-detail{
+        width: 400px;
+    }
+    &-detail h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    &-detail p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    &-address h4{
+        font-weight: 700;
+        margin-bottom: 10px;
+        span{
+            font-weight: 400;
+            color: #707070;
+        }
+    }
+}
