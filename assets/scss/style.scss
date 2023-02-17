@@ -158,7 +158,8 @@ ul{
         justify-content: flex-start;
     }
     .navbar{
-        justify-content: space-between;
+        justify-content: space-evenly;
+        width: 100%;
     }
 }
 @media (max-width: 900px){
